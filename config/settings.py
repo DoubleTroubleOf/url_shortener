@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2!uqduxq$ctipf6!qhf#ybid=^-511^5b)!!20!-l#%=hjie^e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://url-shortener-tust.herokuapp.com"]
 
 
 # Application definition

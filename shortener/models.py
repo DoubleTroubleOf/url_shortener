@@ -4,7 +4,8 @@ import base64
 from django.db import models
 from django.core.validators import URLValidator
 
-HOST_NAME = "http://127.0.0.1:8000/"
+# HOST_NAME = "http://127.0.0.1:8000/"
+HOST_NAME = "https://url-shortener-tust.herokuapp.com"
 
 class Url(models.Model):
     url = models.CharField(max_length=256, validators=[URLValidator()])
