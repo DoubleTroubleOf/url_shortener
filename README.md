@@ -13,6 +13,9 @@ METHODS EXAMPLES:
 [GET]   https://url-shortener-tust.herokuapp.com/export/          -- export `.csv` file with all pairs (`URL`, `short_url`)
 
 
+=============================================================================================================================
+=============================================================================================================================
+
 
 Example:
 URL = https://github.com/DoubleTroubleOf/url_shortener
