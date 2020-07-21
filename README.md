@@ -16,6 +16,9 @@ METHODS EXAMPLES:
 
 Example:
 URL = https://github.com/DoubleTroubleOf/url_shortener
+
 POST :: https://url-shortener-tust.herokuapp.com/shortener/https://github.com/DoubleTroubleOf/url_shortener
+
 hash = iyAatM
+
 short_url = https://url-shortener-tust.herokuapp.com/iyAatM
